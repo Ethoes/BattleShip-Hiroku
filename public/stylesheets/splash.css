@@ -1,0 +1,97 @@
+body {
+    width: 1280px;
+    background: rgb(30, 29, 48);
+    margin: auto;
+    overflow: hidden;
+}
+
+header img {
+    
+    margin: auto;
+    padding: 30px;
+      
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+    -webkit-animation: flickerAnimation .5s infinite;
+    -moz-animation: flickerAnimation .5s infinite;
+    -o-animation: flickerAnimation .5s infinite;
+    animation: flickerAnimation .5s infinite;
+}
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0.9; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.9; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.9; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.9; }
+    100% { opacity:1; }
+  }
+
+header img:hover {
+    opacity: 1;
+}
+
+main {
+    padding: 40px;
+    margin-top: 40px;
+}
+
+button {
+   
+    padding: 40px;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 10px;
+    width: 450px;
+    height: 75px;
+    margin: auto;
+    display: block;
+}
+
+div.stats {
+    padding: 70px;
+    margin-top: 40px;
+}
+
+div div{
+    padding: 40px;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: lightblue;
+        
+}
+
+/* img.test {
+    width: 400px;
+} */
+
+
+
+.waves {
+    z-index: -30;
+    position: relative;
+    top: -1000px;
+    left: -300px;
+}
+
